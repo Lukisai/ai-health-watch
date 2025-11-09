@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+# builds
+dist/
+
+# local tooling
+.vscode/
+.DS_Store
+
+# logs / caches
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+node_modules/.vite
+
+# environment and Netlify
+.env
+.netlify/
